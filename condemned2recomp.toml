@@ -1,0 +1,2 @@
+[UI.Vulkan]
+vulkan_allow_present_mode_immediate = false

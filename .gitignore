@@ -1,4 +1,14 @@
-# Ignore files that might be game asssets
+# Ignore files that might be game assets
 assets/
+Assets/
 *.xex
 *.iso
+
+# Ignore generated code (derived from game binary)
+generated/default/
+
+# Ignore build outputs
+out/
+*.so
+*.a
+*.o
