@@ -58,7 +58,7 @@ cmake --preset win-amd64-release
 cmake --build --preset win-amd64-release --target condemned2recomp_codegen
 cmake --build --preset win-amd64-release
 ```
-#### Linux **(Untested)**
+#### Linux **(Tested - CachyOS / AMD RX 6800)**
 ```
 cd Condemned2Recomp
 cmake --preset linux-amd64-release
