@@ -1,14 +1,19 @@
 # Ignore files that might be game assets
-assets/
 Assets/
+assets/
+out/
+generated/
 *.xex
 *.iso
-
-# Ignore generated code (derived from game binary)
-generated/default/
+*.iso.txt
+*.rar
+*.7z
+*.zip
 
 # Ignore build outputs
-out/
 *.so
 *.a
 *.o
+
+# Ignore generated code
+generated/default/
